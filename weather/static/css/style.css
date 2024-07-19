@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+input {
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    }
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+.weather-info {
+    margin-top: 20px;
+}
+
+.weather-info h2 {
+    text-align: center;
+    color: #007BFF;
+}
+
+.weather-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.weather-info ul li {
+    background-color: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+/* static/css/style.css */
+
+ul.hr {
+    margin: 0; 
+    padding: 4px; 
+    display: table;
+    width: 100%; /* Убедитесь, что ul занимает всю ширину контейнера */
+    border-collapse: collapse; /* Убирает промежутки между границами */
+}
+
+ul.hr li {
+    display: table-cell;
+    margin-right: 5px; 
+    border: 1px solid #000; 
+    padding: 3px;
+}
+
+.max_temp {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+.weather-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.weather-item {
+    flex: 1;
+    min-width: 100px;
+    margin: 10px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.weather-item strong {
+    display: block;
+    font-size: 1.2em;
+}
+
+.weather-item .temp_max {
+    color: #007bff;
+    font-size: 1.5em;
+}
+
+.weather-item .temp_min {
+    color: #6c757d;
+    font-size: 1.2em;
+}
