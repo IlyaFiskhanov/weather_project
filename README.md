@@ -59,6 +59,7 @@
 ```html
 http://127.0.0.1:8000/city_statistics/
 ```
+![](media/4.png)
 
 ## Запуск тестов
 
